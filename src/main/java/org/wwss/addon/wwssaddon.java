@@ -1,8 +1,9 @@
 package org.wwss.addon;
 
-import com.example.addon.commands.CommandExample;
-import com.example.addon.hud.HudExample;
-import com.example.addon.modules.ModuleExample;
+import org.wwss.addon.commands.CommandExample;
+import org.wwss.addon.commands.hello1234567890;
+import org.wwss.addon.hud.HudExample;
+import org.wwss.addon.modules.ModuleExample;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
@@ -23,13 +24,14 @@ public class wwssaddon extends MeteorAddon {
         LOG.info("This is wwss addon");
 
         // Modules
-        Modules.get().add(new ModuleExample());
+//        Modules.get().add(new ModuleExample());
 
         // Commands
-        Commands.add(new CommandExample());
+//        Commands.add(new CommandExample());
+        Commands.add(new hello1234567890());
 
         // HUD
-        Hud.get().register(HudExample.INFO);
+//        Hud.get().register(HudExample.INFO);
     }
 
     @Override

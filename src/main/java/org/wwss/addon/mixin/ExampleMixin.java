@@ -26,6 +26,6 @@ public abstract class ExampleMixin {
      */
     @Inject(method = "<init>", at = @At("TAIL"))
     private void onGameLoaded(GameConfig gameConfig, CallbackInfo ci) {
-        wwssaddon.LOG.info("Hello from ExampleMixin!");
+        wwssaddon.LOG.info("Hello from 676767676767676767676767676767676767676767!");
     }
 }
