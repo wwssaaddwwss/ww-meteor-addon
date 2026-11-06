@@ -1,4 +1,4 @@
-package com.example.addon;
+package org.wwss.addon;
 
 import com.example.addon.commands.CommandExample;
 import com.example.addon.hud.HudExample;
@@ -13,7 +13,7 @@ import meteordevelopment.meteorclient.systems.modules.Category;
 import meteordevelopment.meteorclient.systems.modules.Modules;
 import org.slf4j.Logger;
 
-public class wwaddon extends MeteorAddon {
+public class wwssaddon extends MeteorAddon {
     public static final Logger LOG = LogUtils.getLogger();
     public static final Category CATEGORY = new Category("Example");
     public static final HudGroup HUD_GROUP = new HudGroup("Example");
